@@ -9,7 +9,7 @@ class Team():
         self.team_name = team_name
         self.workload = workload
 
-    def GiveWork(self,work):
+    def _GiveWork(self,work):
         
         self.workload = work
         print(f'new assignment : {self.workload}')

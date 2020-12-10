@@ -7,7 +7,7 @@ class Employee(Person):
     def __init__(self,name,age,position):
         super().__init__(name,age)
         self.position = position
-        self.employeeId = random.randrange(1000,9999)
+        self._employeeId = random.randrange(1000,9999)
         self.workstatus = bool
         self.team = str()
         

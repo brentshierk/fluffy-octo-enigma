@@ -35,9 +35,9 @@ brent.sayHello()
 developers = Team('developer','voice chat',None)
 jake = Employee('jake',35,'senior dev')
 developers.addMemebers('developers',jake)
-developers.GiveWork('add voice filters')
+developers._GiveWork('add voice filters')
 #company class methods
-google = Company('google','3b','search engine')
+google = Company('google',30000000000000000,'search engine')
 google.AddManagerToTeam('jacob',30,'tech lead',developers)
 google.AnnounceRevenue()
 

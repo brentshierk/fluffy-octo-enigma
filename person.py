@@ -1,7 +1,7 @@
 class Person:
     def __init__(self,name,age):
-        self.name = str() 
-        self.age = int() 
+        self.name = name
+        self.age = age 
         
     
     def sayHello(self):
@@ -9,12 +9,12 @@ class Person:
         print(f"hello my name is {self.name} and im {self.age}.")
     
     def talkTo(self,person):
-        print(f"Hey {person.name},havent seen you in awhile! how are the cats?{person.age}")
+        print(f"Hey {person.name},havent seen you in awhile! how are the cats?")
 
 
-lindsay = Person('lindsay',22)
-#lindsay.sayHello()
-james = Person('james',55)
+# lindsay = Person('lindsay',22)
+# #lindsay.sayHello()
+# james = Person('james',55)
     
     
         
